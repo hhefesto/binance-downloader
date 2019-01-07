@@ -1,0 +1,10 @@
+#!/bin/bash
+for i in {1..5}
+do
+   echo "Welcome $i times"
+done
+
+kline-binance -i 1m -s ADAETH -l 5 -st 01/12/2017 -e 02/10/2018 -o ADAETH &&
+kline-binance -i 1m -s ADAXRP -l 5 -st 01/12/2017 -e 02/10/2018 -o ADAXRP &&
+kline-binance -i 1m -s ADABCH -l 5 -st 01/12/2017 -e 02/10/2018 -o ADABCH &&
+kline-binance -i 1m -s ADAEOS -l 5 -st 01/12/2017 -e 02/10/2018 -o ADAEOS &&
